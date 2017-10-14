@@ -12,7 +12,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Manage React Component State with setState
 
-1. [ ] Use React Components as Children for Other Components
+1. [X] Use React Components as Children for Other Components
 
 1. [ ] Access Nested Data with Reacts props.children
 
