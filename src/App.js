@@ -3,34 +3,22 @@ import React from 'react';
 
 class App extends React.Component {
 
-    constructor() {
-        super();
-        this.state = {
-            txt: 'This is the state text!',
-            cat: 1
-        }
-    }
-    update( e ) {
-        this.setState({txt: e.target.value})
-    }
-
     render() {
         return (
-            <div>
-                <Widget update={this.update.bind(this)} />
-                <br/>
-                <Widget update={this.update.bind(this)} />
-                <h1> { this.state.txt } - { this.state.cat } </h1>
-                <div>React version: {React.version}</div>
-            </div>
+            <Button>I <Heart/> React.js</Button>
         )
     }
 }
 
 
 // stateless function Component
-const Widget = (props) =>
-    <input type="text" onChange={props.update} />;
+const Button = (props) =>
+    <button>{props.children}</button>;
 
+class Heart extends React.Component {
+    render() {
+        return <span>&hearts;</span>
+    }
+}
 
 export default App
