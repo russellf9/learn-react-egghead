@@ -14,7 +14,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Use React Components as Children for Other Components
 
-1. [ ] Access Nested Data with Reacts props.children
+1. [X] Access Nested Data with Reacts props.children
 
 1. [ ] Add Custom propType Validation to React Components
 
