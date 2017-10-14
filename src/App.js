@@ -1,28 +1,30 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 
 class App extends React.Component {
+
+    constructor() {
+        super();
+        this.state = {
+            txt: 'This is the state text!',
+            cat: 1
+        }
+    }
+    update( e ) {
+        this.setState({txt: e.target.value})
+    }
+
     render() {
-        let txt = this.props.txt;
         return (
             <div>
+                <input type="text"
+                      onChange={this.update.bind(this)}/>
+                <h1> { this.state.txt } - { this.state.cat } </h1>
                 <div>React version: {React.version}</div>
-                <h1>{ txt } </h1>
             </div>
         )
     }
 }
 
-App.propTypes = {
-    txt: PropTypes.string,
-    cat: PropTypes.number.isRequired
-};
-
-App.defaultProps = {
-    txt: 'default text'
-};
-
-// const App = () => <h1>Hello All!</h1>;
 
 export default App

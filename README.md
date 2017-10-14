@@ -10,7 +10,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [x] Set Properties on React Components
 
-1. [ ] Manage React Component State with setState
+1. [X] Manage React Component State with setState
 
 1. [ ] Use React Components as Children for Other Components
 
