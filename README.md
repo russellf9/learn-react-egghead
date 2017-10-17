@@ -16,7 +16,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Access Nested Data with Reacts props.children
 
-1. [ ] Add Custom propType Validation to React Components
+1. [X] Add Custom propType Validation to React Components
 
 1. [ ] Normalize Events with Reacts Synthetic Event System
 
