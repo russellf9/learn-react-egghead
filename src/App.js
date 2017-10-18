@@ -1,61 +1,39 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-
-
-const myCar = { registrationNumber: 'F1G56H', year: 2010};
 
 
 class App extends React.Component {
 
+    constructor() {
+        super();
+        this.state = {currentEvent: '---'};
+        this.update = this.update.bind(this);
+    }
+
+    update(e) {
+        this.setState({currentEvent: e.type});
+    }
+
     render() {
         return (
             <div>
-                <Title text="Russell"/>
-                <Person
-                    firstName='Russell'
-                    lastName='Wenban'
-                    country="UK"
-                    car={myCar}
-                    gender="male"/>
+                <textarea
+                    onKeyPress={this.update}
+                    onCopy={this.update}
+                    onCut={this.update}
+                    onPaste={this.update}
+                    onFocus={this.update}
+                    onBlur={this.update}
+                    onDoubleClick={this.update}
+                    onTouchStart={this.update}
+                    onTouchMove={this.update}
+                    onTouchEnd={this.update}
+                    cols="30"
+                    rows="10"/>
+                <h1>{this.state.currentEvent}</h1>
             </div>
         )
     }
 }
-
-
-// stateless function Component
-const Title  = (props) => <h1>Title =  { props.text }</h1>;
-
-Title.propTypes = {
-    text: PropTypes.string.isRequired
-};
-
-
-const Person = (props) => <div>
-    <h1>{props.firstName} {props.lastName}</h1>
-    {props.country ? <p>Country: {props.country}</p> : null}
-    <div>
-        <h2>{props.car.registrationNumber} {props.car.year} </h2>
-    </div>
-    <p>Gender: {props.gender}</p>
-</div>;
-
-Person.propTypes = {
-    firstName: PropTypes.string.isRequired,
-    lastName: PropTypes.string.isRequired,
-    country: PropTypes.string,
-    car: PropTypes.shape({
-        registrationNumber: PropTypes.string,
-        year: PropTypes.number
-    }),
-    gender: PropTypes.oneOf([
-        'female', 'male'
-    ])
-};
-
-Person.defaultProps = {
-    country: 'UK'
-};
 
 export default App
 
