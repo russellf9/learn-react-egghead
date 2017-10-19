@@ -18,9 +18,9 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Add Custom propType Validation to React Components
 
-1. [ ] Normalize Events with Reacts Synthetic Event System
+1. [X] Normalize Events with Reacts Synthetic Event System
 
-1. [ ] Use React ref to Get a Reference to Specific Components
+1. [X] Use React ref to Get a Reference to Specific Components
 
 1. [ ] Understand the React Component Lifecycle Methods
 
