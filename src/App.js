@@ -13,20 +13,24 @@ class App extends React.Component {
     }
     componentWillMount() {
         console.log('componentWillMount');
+        this.setState({m: 2}); // can set state before it is rendered
     }
     render() {
         console.log('render');
         return (
             <div>
-                <button onClick={this.update}> { this.state.val }</button>
+                <button onClick={this.update}> { this.state.val * this.state.m }</button>
             </div>
         )
     }
     componentDidMount() {
         console.log('componentDidMount');
+        console.log(ReactDOM.findDOMNode(this)); // we have access to the Component in the dom
+        this.inc =  setInterval(this.update, 500);
     }
     componentWillUnmount() {
         console.log('componentWillUnmount');
+        clearInterval(this.inc);
     }
 }
 
