@@ -26,7 +26,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Manage React Component State with Lifecycle Methods
 
-1. [ ] Control React Component Updates When New Props Are Received
+1. [X] Control React Component Updates When New Props Are Received
 
 1. [ ] Use map to Create React Components from Arrays of Data
 
