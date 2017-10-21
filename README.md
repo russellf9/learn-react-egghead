@@ -22,7 +22,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Use React ref to Get a Reference to Specific Components
 
-1. [ ] Understand the React Component Lifecycle Methods
+1. [X] Understand the React Component Lifecycle Methods
 
 1. [ ] Manage React Component State with Lifecycle Methods
 
