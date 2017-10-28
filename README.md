@@ -31,3 +31,14 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 1. [X] Use map to Create React Components from Arrays of Data
 
 1. [X] Compose React Component Behavior with Higher Order Components
+
+1. [X] Build a JSX Live Compiler as a React Component
+
+1. [ ] Understand JSX at a Deeper Level
+
+1. [ ] Understand React.Children Utilities
+
+1. [ ] Use React.cloneElement to Extend Functionality of Children Components
+
+1. [ ] Write More Reusable React Components with Composable APIs
+
