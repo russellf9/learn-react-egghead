@@ -28,6 +28,6 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Control React Component Updates When New Props Are Received
 
-1. [ ] Use map to Create React Components from Arrays of Data
+1. [X] Use map to Create React Components from Arrays of Data
 
-1. [ ] Compose React Component Behavior with Higher Order Components
+1. [X] Compose React Component Behavior with Higher Order Components
