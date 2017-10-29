@@ -38,7 +38,7 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Understand React.Children Utilities
 
-1. [ ] Use React.cloneElement to Extend Functionality of Children Components
+1. [X] Use React.cloneElement to Extend Functionality of Children Components
 
 1. [ ] Write More Reusable React Components with Composable APIs
 
