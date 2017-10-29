@@ -34,9 +34,9 @@ Following the Egghead Video Tutorial Series  1. [Start Learning React](https://e
 
 1. [X] Build a JSX Live Compiler as a React Component
 
-1. [ ] Understand JSX at a Deeper Level
+1. [X] Understand JSX at a Deeper Level
 
-1. [ ] Understand React.Children Utilities
+1. [X] Understand React.Children Utilities
 
 1. [ ] Use React.cloneElement to Extend Functionality of Children Components
 
